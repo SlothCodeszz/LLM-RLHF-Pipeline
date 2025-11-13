@@ -205,3 +205,52 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# PROJECT-SPECIFIC: LLM-RLHF Pipeline
+
+# Large Model Files (exceeds GitHub 100MB limit)
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.h5
+models/*/pytorch_model.bin
+models/*/model.safetensors
+models/*/adapter_model.bin
+
+# Hugging Face Cache
+.cache/
+huggingface/
+transformers_cache/
+
+# Google Colab / Drive (if syncing from Colab)
+drive/
+MyDrive/
+.google/
+token.json
+credentials.json
+client_secret*.json
+
+# Dataset Files (can be large)
+data/raw/
+*.csv
+*.jsonl
+*.parquet
+*.arrow
+
+# Gradio temporary files
+gradio_cached_examples/
+flagged/
+
+# Training outputs (if not in models/)
+checkpoints/
+runs/
+wandb/
+tensorboard_logs/
+
+# macOS (if you're on Mac)
+.DS_Store
+
+# Windows (if you're on Windows)
+Thumbs.db
+Desktop.ini
