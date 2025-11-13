@@ -20,63 +20,17 @@ This project implements a complete **Reinforcement Learning from Human Feedback 
 
 ### Before vs After Training
 
-|
- Question 
-|
- Base Model 
-|
- Fine-Tuned Model 
-|
- Improvement 
-|
-|
-----------
-|
-------------
-|
-------------------
-|
--------------
-|
-|
-**
-"Is Pluto still a planet?"
-**
-|
- ❌ "yes" (0.389) 
-|
- ✅ "no" (0.724) 
-|
-**
-+86%
-**
-|
-|
-**
-"Is Barack Obama in the White House now?"
-**
-|
- ❌ "yes" (0.363) 
-|
- ✅ "no" (0.701) 
-|
-**
-+93%
-**
-|
-|
-**
-"Are vampires real?"
-**
-|
- ✅ "no" (0.612) 
-|
- ✅ "no" (0.798) 
-|
-**
-+30%
-**
-|
+| Question | "Is Pluto still a planet?" |
+| Base Model |"yes" (0.389) |
+| Fine-Tuned Model |"no" (0.724) | +86% |
+
+| Question | "Is Barack Obama in the White House now?" |
+| Base Model |"yes" (0.363) |
+| Fine-Tuned Model |"no" (0.701) | +93% |
+
+| Question | "Are vampires real?" |
+| Base Model |"no" (0.612) |
+| Fine-Tuned Model |"no" (0.798) | +30% |
 
 ---
 
