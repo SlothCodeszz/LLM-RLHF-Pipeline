@@ -53,9 +53,9 @@ This project implements a complete **Reinforcement Learning from Human Feedback 
 
 All models from the RLHF pipeline are available on Hugging Face:
 
-- **LoRA Model:** [`YOURUSERNAME/flan-t5-lora-truthfulqa`](https://huggingface.co/SlothCodes/flan-t5-lora-truthfulqa)
-- **Reward Model:** [`YOURUSERNAME/bert-reward-model-truthfulqa`](https://huggingface.co/SlothCodes/bert-reward-model-truthfulqa)
-- **PPO Model:** [`YOURUSERNAME/flan-t5-ppo-truthfulqa`](https://huggingface.co/SlothCodes/flan-t5-ppo-truthfulqa)
+- **LoRA Model:** [`flan-t5-lora-truthfulqa`](https://huggingface.co/SlothCodes/flan-t5-lora-truthfulqa)
+- **Reward Model:** [`bert-reward-model-truthfulqa`](https://huggingface.co/SlothCodes/bert-reward-model-truthfulqa)
+- **PPO Model:** [`flan-t5-ppo-truthfulqa`](https://huggingface.co/SlothCodes/flan-t5-ppo-truthfulqa)
 
 ### Installation & Usage
 pip install -r requirements.txt
