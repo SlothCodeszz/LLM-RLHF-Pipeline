@@ -20,17 +20,11 @@ This project implements a complete **Reinforcement Learning from Human Feedback 
 
 ### Before vs After Training
 
-| Question | "Is Pluto still a planet?" |
-| Base Model |"yes" (0.389) |
-| Fine-Tuned Model |"no" (0.724) | +86% |
-
-| Question | "Is Barack Obama in the White House now?" |
-| Base Model |"yes" (0.363) |
-| Fine-Tuned Model |"no" (0.701) | +93% |
-
-| Question | "Are vampires real?" |
-| Base Model |"no" (0.612) |
-| Fine-Tuned Model |"no" (0.798) | +30% |
+| Question | Base Model | Fine-Tuned Model | Improvement |
+|----------|------------|------------------|-------------|
+| "Is Pluto still a planet?" | yes (0.389) | no (0.724) | +86% |
+| "Is Barack Obama in the White House now?" | yes (0.363) | no (0.701) | +93% |
+| "Are vampires real?" | no (0.612) | no (0.798) | +30% |
 
 ---
 
@@ -53,5 +47,15 @@ This project implements a complete **Reinforcement Learning from Human Feedback 
 - **Reproducible**: Complete code, trained models and documentation included
 
 ---
+## Important Notes
 
-**Note:** Trained models available upon request. Full training pipeline in notebook takes 2-3 hours on Colab T4 High-RAM GPU.
+### Pre-trained Models Available
+
+All models from the RLHF pipeline are available on Hugging Face:
+
+- **LoRA Model:** [`YOURUSERNAME/flan-t5-lora-truthfulqa`](https://huggingface.co/SlothCodes/flan-t5-lora-truthfulqa)
+- **Reward Model:** [`YOURUSERNAME/bert-reward-model-truthfulqa`](https://huggingface.co/SlothCodes/bert-reward-model-truthfulqa)
+- **PPO Model:** [`YOURUSERNAME/flan-t5-ppo-truthfulqa`](https://huggingface.co/SlothCodes/flan-t5-ppo-truthfulqa)
+
+### Installation & Usage
+pip install -r requirements.txt
